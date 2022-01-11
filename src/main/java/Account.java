@@ -9,6 +9,6 @@ public class Account {
         if (name == null) {
             return false;
         }
-        return name.matches("(?=.{3,18}$)[a-zA-Zа-яёА-яЁ]+\\s[a-zA-Zа-яёА-яЁ]+");
+        return name.matches("(?=.{3,19}$)[a-zA-Zа-яёА-яЁ]+\\s[a-zA-Zа-яёА-яЁ]+");
     }
 }
